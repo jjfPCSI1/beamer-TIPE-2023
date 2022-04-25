@@ -3,6 +3,16 @@
 Le présent dépôt contient un template de présentation [LaTeX beamer](https://latex-beamer.com/)
 spécialement préparé en vue de l'épreuve de TIPE.
 
+Pour ceux qui ont un compte sur https://overleaf.com, 
+* connectez-vous, puis cliquez sur le lien https://www.overleaf.com/read/zwjcgjszghxp qui est un lien en lecture seule vers le modèle. 
+* Depuis cette page, cliquez sur l'icône «Menu» tout en haut à gauche puis dans le sous-menu «Action», 
+* cliquez sur «Copy» pour copier le modèle dans votre compte, 
+* choisissez un titre qui vous convienne (et qui soit relié à votre thème de TIPE) 
+* puis appuyez sur le bouton «Copy». 
+Cela devrait ouvrir le projet chez vous en mode écriture. 
+
+Pour le partager avec d'autres membres de votre groupe, cliquez sur l'onglet «Sharing», en haut au milieu à droite, puis appuyez sur le lien «link sharing» qui permet d'activer le partage de lien internet. Ne reste plus qu'à copier le lien en écriture (le premier proposé, là où il y a marqué «Anyone with this link can edit this project») et l'envoyer aux personnes que vous voulez inclure dans la boucle.
+
 ## Organisation
 
 Le fichier `fichier_principal.tex` contient les inclusions de structures qui
