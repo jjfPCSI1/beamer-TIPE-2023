@@ -1,7 +1,7 @@
 # Présentation beamer à destination de l'épreuve orale de TIPE
 
-Le présent dépôt contient un template de présentation beamer spécialement préparé
-en vue de l'épreuve de TIPE.
+Le présent dépôt contient un template de présentation [LaTeX beamer](https://latex-beamer.com/)
+spécialement préparé en vue de l'épreuve de TIPE.
 
 ## Organisation
 
@@ -11,10 +11,10 @@ sont réparties comme suit:
 * `preambule/autres_packages.tex` contient les import d'autres packages qui peuvent être utile
 * `preambule/macros.tex` contient quelques définitions de commandes: c'est là
 que vous devriez mettre vos définitions personnelles et il y en a quelques-unes de prédéfinies pour vous, en particulier
-	* `\U` permet de composer facilement les unités en respectant un minimum de convention (caractères en romains, espace automatique entre nombre et unité). On l'utilise de la sorte: `$g = 9{,}81 \U{m.s^{-2}$`
+	* `\U` permet de composer facilement les unités en respectant un minimum de convention (caractères en romains, espace automatique entre nombre et unité). On l'utilise de la sorte: `$g = 9{,}81 \U{m.s^{-2}}$`
 	* `\ofg` permet de mettre son argument entre guillemets: `entre \ofg{guillemets}`
 	* `\dd` est un raccourci pour `\mathrm{d}` qui fait un d en caractères droits, ce qui devrait être utilisé dans les dérivées: `$\frac{\dd r}{\dd t}$` pour la dérivée de r par rapport à t
-	* `\pa` met des parenthèses dont la taille s'adapte à son argument: `$\paa{\int_0^\infty\mathrm{e}^{-t/\tau}\,\dd t$`
+	* `\pa` met des parenthèses dont la taille s'adapte à son argument: `$\pa{\int_0^\infty\mathrm{e}^{-t/\tau}\,\dd t$`
 	* `\pac` fait pareil avec des crochets
 	* `\paa` itou avec des accolades
 	* `\Cte` introduit une constante (en caractères droits)
