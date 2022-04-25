@@ -1,0 +1,107 @@
+% Titre de la partie
+\section[Relativité restreinte]{Le point de vue de la Relativité Restreinte}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Première diapo (avec des équations)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Relativité Restreinte}
+	\framesubtitle{Dynamique relativiste}
+
+	\begin{block}{Nouvelle définition de la quantité de mouvement}
+        \pause
+		$$
+		\vec{p} = \gamma\,m\vec{v}
+		\qquad\text{avec}\qquad
+		\gamma = \frac{1}{\sqrt{1 - \frac{v^2}{c^2}}}
+		$$
+	\end{block}
+
+    \pause
+		Avec des développements classique et
+		en posant $u=1/r$, on en arrive à l'équation
+		\onslide <4->{
+		$$
+		\onslide <5->
+		\underbrace{
+		\onslide <4->
+		    \frac{\dd^2 u}{\dd \theta^2} + u = \frac{G M m\, E}{L^2\, c^2}
+		\onslide <5->
+		    }_{
+		    \text{Partie usuelle}}
+		\onslide <4->
+		            +
+		\onslide <6->
+		\underbrace{
+		\onslide <4->
+		            \frac{\pa{G M m}^2}{L^2\, c^2}\, u
+	    \onslide <6->
+	               }_{\text{Partie relativiste}}
+		$$
+		}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deuxième diapo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Relativité Restreinte}
+	\framesubtitle{Équation de l'ellipse}
+
+	Équation différentielle remise en forme
+
+    \pause
+		$$
+		    \frac{\dd u}{\dd \theta} + B^2\, u = A
+            \pause
+		        \quad \text{avec} \quad
+		            B  = \sqrt{1 - \pa{\frac{G M m}{L\, c}}^{\!\!2} }
+		$$
+
+    \pause
+
+	\begin{block}{Équation de l'\ofg{ellipse}}
+		$$
+		u = \frac{A}{B^2} \pa{1 + e\cos{\pac{B\pa{\theta - \theta_0}}}}
+        \pause
+		\quad\text{soit}\quad
+		r = \frac{p}{1+e\cos{\pac{B\pa{\theta - \theta_0}}}}
+		$$
+	\end{block}
+
+\end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Troisième diapo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}
+	\frametitle{Relativité Restreinte}
+	\framesubtitle{Avance du périhélie}
+
+	\begin{exampleblock}{Caractère non fermé}<+->
+		Du fait que $B\neq1$.
+	\end{exampleblock}
+
+	\begin{exampleblock}{Rotation}<+->
+		Entre deux périhélies successifs, $\theta$ tourne de $2\pi +\delta$ où
+		\onslide<+->{
+			$$
+			\boxed{
+		    \delta = 2\pi\pa{\frac{1}{B} - 1}
+		    			\approx \pi \pa{\frac{G\, M\, m}{L\, c}}^{\!\!2}
+		    			= \pi \, \frac{G M}{p\, c^2}
+		    			= \pi\, \frac{G M}{a\, c^2\, \pa{1-e^2}}
+		    }
+			$$
+		}
+	\end{exampleblock}
+
+	\begin{alertblock}{Malheureusement...}<+->
+		l'application numérique ne donne \ofg{que}
+		$7''$ d'arc par siècle...
+	\end{alertblock}
+
+
+\end{frame}

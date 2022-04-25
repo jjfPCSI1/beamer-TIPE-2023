@@ -1,0 +1,55 @@
+% On découpe ce document complexe en plusieurs sous-fichiers séparés.
+% Cela permettra notamment de réarranger les transparents facilement
+% lors de l'élaboration du document.
+
+% La définition de la classe beamer avec tous les styles afférents
+\input{preambule/special_beamer.tex}
+
+% Les autres packages utiles  notamment pour le français, les accents ou Python
+\input{preambule/autres_packages.tex}
+% Les macros et raccourcis personnels
+\input{preambule/macros.tex}
+
+% On définit le titre et l'auteur du document
+
+% L'argument optionnel (entre crochets) donne le titre qui sera mis sur chaque slide
+\title[TIPE Mercure]{TIPE: Précession du Périhélie de Mercure}
+\author[813]{Candidat 813} % Votre nom (pour cette année) ou numéro (pour le concours)
+% L'épreuve (car on n'a pas le droit de signaler sa provenance à un concours) 
+% (là encore, l'argument optionnel apparaît sur chaque slide)
+\institute[TIPE]{Épreuve de TIPE}
+\date{Session 2023}
+
+% On démarre le document proprement dit
+\begin{document}
+
+% La page de titre et la table des matières
+\input{00_titre_et_tdm.tex}
+
+% La première grande partie: introduction du sujet
+\input{01_premiere_partie.tex}
+
+% La 2e partie: Le point de vue de la relativité restreinte
+\input{02_deuxieme_partie.tex}
+
+% La 3e partie: Le point de vue de la relativité générale
+\input{03_troisieme_partie.tex}
+
+% Conclusion
+\input{04_conclusion.tex}
+
+% Annexes (non numérotées)
+\appendix
+%\backupbegin
+
+\input{05_annexes.tex}
+
+
+% Les diapos d'exemples
+% (à commenter si bien sûr vous n'en voulez pas...
+% ils sont juste là pour servir d'exemples de base)
+\input{exemples.tex}
+
+%\backupend
+
+\end{document}

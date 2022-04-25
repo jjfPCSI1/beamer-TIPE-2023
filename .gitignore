@@ -1,0 +1,15 @@
+*.fls
+*.fdb*
+*~
+_minted*
+mwe.*
+*.log
+*.aux
+*.nav
+*.pdf
+*.out
+*.snm
+*.toc
+*.vrb
+*.synct*
+
