@@ -13,6 +13,8 @@ Cela devrait ouvrir le projet chez vous en mode écriture.
 
 Pour le partager avec d'autres membres de votre groupe, cliquez sur l'onglet «Sharing», en haut au milieu à droite, puis appuyez sur le lien «link sharing» qui permet d'activer le partage de lien internet. Ne reste plus qu'à copier le lien en écriture (le premier proposé, là où il y a marqué «Anyone with this link can edit this project») et l'envoyer aux personnes que vous voulez inclure dans la boucle.
 
+Pour dcouvrir les rudiments de LaTeX, vous pouvez consulter ce [Guide de survie](https://www.overleaf.com/read/swxcfkkcwzsp).
+
 ## Organisation
 
 Le fichier `fichier_principal.tex` contient les inclusions de structures qui
